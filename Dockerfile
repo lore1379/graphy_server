@@ -1,4 +1,4 @@
-FROM node:hydrogen-buster-slim
+FROM node:hydrogen-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
